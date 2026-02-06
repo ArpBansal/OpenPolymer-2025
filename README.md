@@ -21,28 +21,8 @@ pip install requirements.txt
 ```
 
 ## Usage
+This code dir paths assumes as being in kaggle notebook
 
-### Data Preparation
-This code dir path assumes as being in kaggle notebook
-
-### Training GNN Models
-
-```bash
-python scripts/train_gnn.py \
-    --base_path ./data/ \
-    --model_dir ./models/gnn/ \
-    --n_splits 10
-```
-
-### Making Predictions
-
-```bash
-python scripts/predict_gnn.py \
-    --base_path ./data/ \
-    --model_dir ./models/gnn/ \
-    --output submission_gnn.csv \
-    --n_splits 10
-```
 
 ## Target Properties
 
